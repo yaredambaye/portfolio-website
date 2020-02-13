@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website-v1",
+  "version": "1.0.0",
+  "description": "portfolio for resume",
+  "main": "server.js",
+  "scripts": {
+    "yada-fend-install": "npm install --prefix yada-fend",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "yada-fend": "npm start --prefix yada-fend",
+    "dev": "concurrently \"npm run server \" \"npm run yada-fend\""
+  },
+  "author": "Yared Tsehaye",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react-particles-js": "^2.7.1",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
